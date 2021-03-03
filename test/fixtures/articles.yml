@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+<% 1.upto(200) do |i| %>
+article<%= i %>:
+  title: Article <%= i %>
+  contents: Some contents
+<% end %>
+
+special:
+  title: Special Article
+  contents: This is some special article
