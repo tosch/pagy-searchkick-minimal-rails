@@ -56,4 +56,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'searchkick'
 
 # Use pagy
-gem 'pagy'
+gem 'pagy', github: 'ddnexus/pagy', branch: '4.0'
